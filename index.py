@@ -13,9 +13,9 @@ app.config['SECRET_KEY'] = "thisisasecret!!!!"
 @app.route("/logout")
 def logout():
     data = {}
-    data['fname']=session['fname']
-    data['lname']=session['lname']
-    data['email']=session['email']
+    data['fname']=session['fname'] if 'fname' in session else ''
+    data['lname']=session['lname'] if 'lname' in session else ''
+    data['email']=session['email'] if 'email' in session else ''
     session.clear()
     return render_template('logout.html',data=data)
 
