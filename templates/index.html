@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <title>Travel Assistance</title>
+    <title>College Bot</title>
   </head>
   <body>
       <div class="container h-100">
@@ -17,7 +17,7 @@
                     <div class="chat-container" style="overflow: auto; max-height: 80vh">
                         <!-- chat messages -->
                         <div class="chat-message col-md-5 offset-md-7 bot-message">
-                          Welcome to CollegeBot, a chatbot created with DialogFlow.  You can ask the following questions:
+				Welcome {{session['fname']}} {{session['lname']}} to CollegeBot, a chatbot created with DialogFlow.  You can ask the following questions:
 			  1.Does the college have a football team? 
 			  2.Does it have Computer Science Major?
 			  3.What is the in-state tuition?
@@ -28,10 +28,12 @@
                        <input class="input" type="text" value="" placeholder="Enter message..." id="input_message"/>
                        <input type="submit" hidden>
                     </form>
+		    <a href="{{url_for('logout')}}">END CHAT</a>
                 </div>
             </div>
         </div>
     </div>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script src="{{ url_for('static', filename='custom.js')}}"></script>

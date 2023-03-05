@@ -1,5 +1,5 @@
 # /index.py
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, session, redirect, url_for,  request, flash, jsonify, render_template
 import os
 import dialogflow
 import requests
@@ -7,11 +7,39 @@ import json
 #import pusher
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = "thisisasecret!!!!"
 
-@app.route('/')
+
+@app.route("/logout")
+def logout():
+    data = {}
+    data['fname']=session['fname']
+    data['lname']=session['lname']
+    data['email']=session['email']
+    session.clear()
+    return render_template('logout.html',data=data)
+
+
+@app.route('/index')
 def index():
-    return render_template('index.html')
+    flash("welcome")
+    return render_template('index.html',session=session)
 
+@app.route('/login',methods=['GET','POST'])
+def login():
+  if request.method == 'POST':
+        
+        fname = request.form['firstname']
+        lname = request.form['lastname']
+        email = request.form['email']
+        session['fname']=fname
+        session['lname']=lname
+        session['email']=email
+        flash('You were successfully logged in!')
+        return redirect(url_for('index'))
+
+  elif request.method == 'GET':
+    return render_template('login.html')
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
