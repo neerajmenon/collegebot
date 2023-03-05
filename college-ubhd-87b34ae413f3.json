@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "college-ubhd",
+  "private_key_id": "87b34ae413f34285d77febcb16559720299aae2a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCZWkfpu5vDAj/0\nqFaSV9eAh/yYYtavA0R1MrK7y9LjUhyyrY9Bsa+HW0eJ3U7EWqpZNuDfX4pUYAF6\nO4rLTAy0hhxfHxBx8jBbRahymVO03g21mSsKtrww5D9kGtzuYYxRTm8q0dyKpSX+\n++zvCP09P1D7ZdRHaK+BOCLSFGHZbmiTRzOYYU3bQ7E7JP8KjH2Ld0O40oY7OYVZ\nwleXkNAgVEDqLyxNTzGEo3rgBSa9spePCtXNfrGk/kHSbphrek+dokVzRYlk9Cmr\nX0ZdXb/qfgKsfGpNmWcJJmLaXPcfJeoMzMwU5k8HR1s26uH3l8dpgQ2903FJZUnO\nT6vhA9z3AgMBAAECggEAEomsWcqOY2jOjGfGbKhmalOGAHHU8TvG4cKq1916ynSu\n+BaCU8xZTgEwc6+nXusgM+quDQftST0rJeM0EwFII+Z2YDVOypzJUFnqU/ge+0/r\nKQGxXKPcZK34JRoY4k7eedGudJGr7wKpxi90DoKarPW4zLscNImoyvPF7yP8SXP0\nXFxPczkS4uSpn9qKfSLT2kZNXYoU4K0r/W51mM/gB6mAzGrLwz0P3LKDoUFXYna7\nuKe8vB1oKgiRIPTxAtDYfs+31JPJ2/o6PxlqY116nw7uQHAFK7HwJySxSt6C/ixY\nzXTJWL0VItrSQOyGkqCfLJb5A2UifqWY2hGbRuMYQQKBgQDPkZzQoo+wCEkp6QkP\nJYpFJXvcp2FCyc4fB5y+M6wVsoZp9WEUQ4DhenplwF6HQuBg2fF5U0SK05h+jl9+\ncaklhdu9O+btk5gZ69hP4yYJzVfQBpcnEzen63lWyObR07p/ranwwF3gqPEcB3Tx\nPqV2Irz7nALWI/jrkCpnJPav4QKBgQC9IkJaccojQmDp/XljVyFnRYBzJdboroBq\nFQQvlhrASCm0FOJWiCtBIRoRTqsShducax4/4nSx75DPZh2JNR4KGkR94001tAmZ\nt5bFHrLewgc7NcTalXs/OfSY34sL3PXZJj63sVh4ieAogmgHhSx3j7Q3tjoaZNSj\nns14w+cH1wKBgQCtHOJOVuXDiIWMgKBfk42IMcTluGszip9v3adqMio5RlU4FcBL\naCka5E0kg5XS9YGxBNORvlKR/ftWwWL/T8gkVUl4v3bPeaMHK12S8v0Me8fa5UQ3\nAJ4QXCEssg1fvlfymGH9OlKRRhUgrU9ozDivGDXJGsp60jGONQRIVdmvwQKBgC+p\nKXVnRVv7RzbP5D4PX+CJWCQsPermxn91Clf/iIA57yBtPtg1ekjwUYRZAa0qRDw3\nlijdJTENwL0y63B/DTHYirf6hqNo2h59cCX+ZW7TEEVweEno72Twct3vPzffF6kA\nBT//Fd9SR0WODy8N9TWv5edAKYYrMJaG1xp+q4KDAoGBAJ2Hteyeg6XPxcLOFxWo\nsIoxeegHOLUCpxJdnNmOeYcoCH2JJX+qz4nGsDQrmUK2sP8QYCyvbho1b9wfCreX\nlWAKbdbLVv2oQsIe5iPXhGhufbOpSdXymVDWd1vyNu/i37oucvqSdfa+eMZjr1ok\nql//6jLwVC9tjOZGzDs16P1v\n-----END PRIVATE KEY-----\n",
+  "client_email": "nrj47-679@college-ubhd.iam.gserviceaccount.com",
+  "client_id": "105248345783260873394",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nrj47-679%40college-ubhd.iam.gserviceaccount.com"
+}
